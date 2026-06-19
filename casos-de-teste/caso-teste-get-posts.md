@@ -1,4 +1,4 @@
-# Caso de Teste - GET Posts
+# Caso de Teste – GET Posts
 
 ## Identificação
 
@@ -20,39 +20,56 @@ Validar se a API retorna com sucesso a lista de posts cadastrados.
 
 ## Pré-condições
 
-* API disponível.
+* API disponível para acesso.
 * Conexão com a internet ativa.
-* Postman instalado.
+* Postman instalado e configurado.
+* Endpoint acessível.
+
+---
+
+## Dados da Requisição
+
+**URL:**
+
+```http
+https://jsonplaceholder.typicode.com/posts
+```
+
+**Método HTTP:**
+
+```http
+GET
+```
 
 ---
 
 ## Passos para Execução
 
 1. Abrir o Postman.
-2. Criar uma requisição GET.
-3. Informar a URL:
-
-https://jsonplaceholder.typicode.com/posts
-
-4. Clicar em Send.
+2. Criar uma requisição do tipo GET.
+3. Informar a URL da API.
+4. Executar a requisição clicando em **Send**.
+5. Analisar o retorno da API.
 
 ---
 
 ## Resultado Esperado
 
-* Status Code 200.
-* Retorno em formato JSON.
-* Lista contendo registros de posts.
+* Status Code igual a 200.
+* Resposta retornada em formato JSON.
+* Lista de posts disponível.
 * Tempo de resposta dentro do esperado.
+* Nenhum erro apresentado pela API.
 
 ---
 
 ## Resultado Obtido
 
-Aguardando execução.
+A requisição foi executada com sucesso utilizando o Postman.
 
----
-
-## Status
-
-Não Executado
+* Método: GET
+* Endpoint: /posts
+* Status Code: 200 OK
+* Tempo de Resposta: 157 ms
+* Formato da Resposta: JSON
+*
